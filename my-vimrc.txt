@@ -1,0 +1,12 @@
+" Welcome to the VIMRC
+
+" Basic
+syntax on        " syntax
+set number       " show line numbers
+set ignorecase   " case-insensitive search
+set hlsearch	 " highlight search matches
+
+" Display
+set scrolloff=10    " keep lines visible above/below the cursor
+set cursorline      " highlight the current line
+set laststatus=2    " always show the status line
