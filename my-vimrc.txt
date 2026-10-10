@@ -10,3 +10,14 @@ set hlsearch	 " highlight search matches
 set scrolloff=10    " keep lines visible above/below the cursor
 set cursorline      " highlight the current line
 set laststatus=2    " always show the status line
+
+" Tabs
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set smartindent
+
+" Filetype Override
+autocmd FileType javascript,html,css,json setlocal tabstop=2 shiftwidth=2 softtabstop=2
+
+" Search
